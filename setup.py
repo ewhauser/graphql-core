@@ -81,9 +81,5 @@ setup(
     install_requires=install_requires,
     tests_require=tests_requires,
     cmdclass={"test": PyTest},
-<<<<<<< HEAD
-    extras_require={"gevent": ["gevent>=1.1"], "test": tests_requires},
-=======
     extras_require={"gevent": ["gevent~=1.3.6"], "test": tests_requires},
->>>>>>> Fix gevent dependency
 )
